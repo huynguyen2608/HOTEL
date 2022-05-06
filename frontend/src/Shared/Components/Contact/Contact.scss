@@ -1,0 +1,60 @@
+.contact {
+    .contact-hot {
+        padding: 0px;
+        margin: 0 10px;
+
+        .contact-hot-title {
+            border: 1px solid;
+            padding: 10px;
+            background: #E3EDF7;
+            box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 0.48);
+            border-radius: 44px;
+            margin-bottom: 0px;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .contact-hot-content {
+            border: 1px solid;
+            height: 40px;
+        }
+    }
+    .sendmail{
+        background: #009688 !important;
+        width: 100%;
+        height: 45px;
+        border-radius: 15px;
+    }
+
+    .contact-main {
+
+        margin: 0 10px;
+        padding: 0px;
+
+        .contact-main-title {
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid;
+            padding: 10px;
+            margin-bottom: 0px;
+            background: #E3EDF7;
+            box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 0.48);
+            border-radius: 44px;
+        }
+
+        .contact-main-form {
+            margin: 0 10px;
+            padding: 10px;
+            border: 1px solid;
+            .info-company{
+                // color: #009688;
+                color: white;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,96 @@
+
+    .img-service{
+        // flex-basis: 48%;
+        text-align: center;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        color: #fff;
+        position: relative;
+        min-height: 400px;
+        max-height: 500px;
+        
+        .Card_img{
+            width: 100%;
+            border-radius: 7px;
+            min-height: 350px;
+            height: 400px;
+            max-height: 450px;
+            overflow: hidden;
+        }
+        .rarity-img{
+            display: flex;
+            height: 20px ;
+            padding-bottom: 10px;
+            img{
+               height: 20px !important
+            }
+        }
+        .overlay{
+            width: 97.8%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            border-radius: 7px;
+            cursor: pointer;
+            background: linear-gradient(rgba(0,0,0,0.5), #009688);
+            opacity: 0;
+            transition: 1s;
+        }
+        &:hover .overlay{
+            opacity: 1;
+        }
+        .room-desc{
+            width: 80%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            opacity: 0;
+            transform: translateX(-50%);
+            transition: 1s;
+            .line-hr{
+                background: #fff;
+                height: 2px;
+                border: 0;
+                margin: 15px auto;
+                width: 60%;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        &:hover .room-desc{
+            bottom: 40%;
+            opacity: 1;
+        }
+        
+            .rate_service {
+                color: yellow;
+            }
+        
+            .originPrice_service {
+                text-align: right;
+                // font-size: 13px;
+            }
+        .total_price {
+                padding: 0px 2px;
+                // font-size: 14px;
+                margin: 0px;
+                border-radius: 0 0 5px 5px;
+                .sale_service {
+                    padding: 0px 2px;
+                    text-align: left;
+                }
+        
+                .price_service {
+                    text-align: right;
+                    padding: 0px 2px;
+                    
+                }
+            }
+        
+    }
+    
+
+
+
+

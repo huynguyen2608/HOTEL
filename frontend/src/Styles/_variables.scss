@@ -1,0 +1,53 @@
+$c-text: #3c3c3c;
+$c-text-head: white;
+$c-border: #c3c3c3;
+$c-background: #ffffff;
+$c-background-card: #ffffff;
+$c-background-head: #343a40;
+$c-background-head-hover: #028E93;
+$c-main-color: #7DA7EB; // màu chủ đạo toàn bộ hệ thống
+$c-pink-main : #FFC0CB;
+$c-pink-light : #FFB6C1;
+$c-pink-hot : #FF69B4;
+$c-pink-deep : #FF1493;
+$c-pink-pale-violet : #DB7093;
+$c-pink-medium-violet : #C71585;
+$c-old-lace: #FDF5E6;
+$c-floral-white: #FFFAF0;
+$c-ivory: #FFFFF0;
+$c-antique-white: #FAEBD7;
+$c-linen: #FAF0E6;
+$c-DarkSalmon: #E9967A;
+$c-LightCoral: #F08080;
+$c-Misty-rose: #FFFAF0;
+$c-gray-footer: #C4C4C4;
+// $c-background-color-byDuc: 
+
+////BUTTON///
+$c-text-btn: #ffffff;
+$c-secondary: #28b76b;
+$c-danger: #d26d69;
+$c-secondary-hover: #219859;
+$c-danger-hover: #c9504c;
+$border: solid 1px $c-border;
+$border-radius: 6px;
+$transition-btn-hover: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+$c-table-text-header: #fff;
+$c-table-header: #28b76b;
+$c-table-row: #f4fcf6;
+//$c-table-row-hover: #e7f4eb;
+$c-table-row-hover: #f4fcf6; //màu chuẩn
+$c-table-row-selected: #e7f4eb; //màu được chọn
+$c-table-row-succes: #fdf6e5;
+$c-table-row-wait: #fbf3f2;
+$transition-table-hover: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+$c-hue: 211;
+$c-sat: 100;
+$box-shadow: 0 0 0 0.25rem rgba(255, 99, 71, 0.2);
+
+$s-text: 13px;
+$s-text-head: 16px;

@@ -1,0 +1,53 @@
+@import "./components/Prolife/index.scss";
+@import "./components/History/index.scss";
+.MyProfileView {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    min-height: 550px;
+    .MyProfileView-card {
+        border: 2px solid gray;
+        width: 95%;
+        padding-top: 10px;
+        display: flex;
+
+        .MyProfileView-img {
+            border-radius: 50%;
+            border: 1px solid gray;
+            height: 100px;
+            width: 100px;
+            padding: 0px;
+        }
+
+        .MyProfileView-content {
+            width: auto;
+            padding-top: 20px;
+           
+            .name {
+                font-weight: 600;
+            }
+
+            .role {
+                color: gray;
+            }
+        }
+        .nav-tab-title{
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .nav-tabs .nav-link.active{
+            color: white;
+            font-size: 20px;
+            line-height: 24px;
+            background-color: #009688;
+        }
+        .nav-tabs .nav-link{
+            color: white;
+            font-size: 20px;
+            line-height: 24px;
+          
+        }
+
+    }
+
+}

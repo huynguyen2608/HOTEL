@@ -1,0 +1,87 @@
+.news{
+
+
+    .title-text-news{
+        text-align: center;
+        padding-bottom: 70px;
+        p{
+            margin: auto;
+            font-size: 20px;
+            color: #009688;
+            font-weight: bold;
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+        } 
+        p::after{
+            content: "";
+        width: 80px;
+        height: 35px;
+        background: linear-gradient(#019587, #fff);
+        position: absolute;
+        top: -9px;
+        left: -4px;
+        z-index: -1;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        }
+        h1{
+            font-size: 50px;
+            color: white;
+        }
+    }
+    .news-box{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        .tip-news{
+            flex-basis: 50%;
+            text-align: left;
+            h1{
+                text-transform: uppercase;
+                text-align: left;
+                margin-bottom: 10px;
+                font-weight: 100;
+                color: #009688;
+            }
+            .news-icon {
+                .fa{
+                    width: 50px;
+                    height: 50px;
+                    font-size: 30px;
+                    line-height: 50px;
+                    border-radius: 8px;
+                    color: #009688;
+                    border: 1px solid #009688;
+                    text-align: center;
+                }
+            }
+            .news-text{
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                padding: 0 20px;
+                span{
+                    color: white;
+                    text-align: initial;
+                    font-size: 20px;
+                }
+            }
+            .news-desc{
+                display: flex;
+                align-items: center;
+                margin-bottom: 40px;
+            }
+        }
+        .img-news{
+            flex-basis: 50%;
+            margin: auto;
+            img{
+                width: 70%;
+                border-radius: 10px;
+            }
+        }
+    }
+}

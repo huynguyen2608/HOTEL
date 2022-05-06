@@ -1,0 +1,75 @@
+.Description {
+    // background:$c-Misty-rose ;
+    background: #E3EDF7;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #009688;
+    box-shadow: 0 10px 20px 3px #009688;
+    svg {
+        margin-right: 10px;
+        height: 24px;
+        width: 24px;
+
+    }
+
+    .img-room {
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .name-room {
+        margin-top: 10px;
+    }
+
+    .detail-room {
+        color: black;
+
+        p {
+            margin-bottom: 2px;
+        }
+
+        button {
+            text-transform: lowercase;
+            padding: 0px;
+        }
+
+        .detail-room-view {
+            padding-left: 50px;
+        }
+
+    }
+
+    .attach-room {
+        color: #e41919;
+
+        p {
+            margin-bottom: 2px;
+        }
+
+
+    }
+
+    .gif-room-service {
+        display: flex;
+        padding: 10px 5px;
+        margin: 10px 0;
+        // color: #009688;
+        background: linear-gradient(#49b1a6, #fff);
+        // border: 2px solid $c-antique-white;
+        border-radius: 10px;
+
+        p {
+            margin-bottom: 2px;
+        }
+
+        .gif-room-service-icon {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .gif-room-service-divider{
+            height: 90%;
+            margin-right: 5px;
+        }
+    }
+}

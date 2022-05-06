@@ -1,0 +1,43 @@
+@import "./../../../Styles/variables";
+demo{ background: $c-linen; }
+.container-sigin{
+  margin: 50px auto;
+  min-height: 519px;
+  h6{
+    color: white;
+    font-size: 18px;
+  }
+  .form-container {
+    font-family: 'Nunito', sans-serif;
+    padding: 40px;
+    margin-bottom: auto;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px 3px #009688;
+    border: 2px solid #009688;
+    .title {
+      color:#fff;
+      font-size: 25px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      margin: 0 0 20px;
+    }
+    input{
+      padding: 10px 0;
+    }
+    .form-horizontal {
+      .form-group {
+        margin: 0 0 25px 0;
+        
+        label {
+          font-size: 17px;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+      }
+
+
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.MyHistory{
+    height: 700px;
+    overflow: auto;
+    .text-card{
+        color: black !important;
+    }
+    .styled_modal{
+        color: black !important;
+        .footer_style{
+            .cancel{
+                color: #fff;
+                background-color: #DC143C;
+                border-color: #DC143C;
+              }
+              .cancel:hover{
+                color: #fff;
+                background-color: red !important;
+                border-color: red !important;
+              }
+        }
+      
+    }
+    
+}

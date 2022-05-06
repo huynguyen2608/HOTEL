@@ -1,0 +1,44 @@
+.filter-room-list{
+    margin: 20px 10px;
+    padding: 15px 0;
+}
+
+.listLocation{
+    width: 100%;
+    .cardService {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .title-text-room{
+        text-align: center;
+        p{
+            margin: auto;
+            font-size: 20px;
+            color: #009688;
+            font-weight: bold;
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+        } 
+        p::after{
+            content: "";
+            width: 85px;
+            height: 41px;
+            background: linear-gradient(#019587, #fff);
+            position: absolute;
+            top: -13px;
+            left: 48%;
+            z-index: -1;
+            border-top-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+        }
+        h1{
+            font-size: 50px;
+            color: white;
+        }
+    }
+
+}

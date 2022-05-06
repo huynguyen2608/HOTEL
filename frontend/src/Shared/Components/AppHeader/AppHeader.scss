@@ -1,0 +1,111 @@
+@import "../../../Styles/variables";
+
+.appHeaderContainer {
+    // position: fixed;
+    z-index: 100;
+    transition: all 0.75s cubic-bezier(0,1,.5,1);
+    max-height: 570px;
+    align-items: center;
+    height: 70px;
+    display: flex; 
+    justify-content: space-around;
+    font-size: 20px;
+    .forLogo {
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 27px;
+        cursor: pointer;
+        background: #E3EDF7;
+        box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(136, 165, 191, 0.48);
+        border-radius: 44px;
+        
+    }
+    .forLogo:hover{
+        background: #E3EDF7;
+        box-shadow: inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+        border-radius: 16px;
+    }
+
+    .option {
+        display: flex;
+        justify-content: center;
+        // .optionItem{
+        //     background: radial-gradient(315.18% 315.18% at -124.11% -101.79%, #B9CCE2 11.1%, #FFFFFF 85.21%);
+        // }
+    }
+
+    .forUser {
+        display: flex;
+        justify-content: center;
+
+        .dropdown {
+            .dropdown-toggle {
+                padding: 10px;
+                background: radial-gradient(315.18% 315.18% at -124.11% -101.79%, #B9CCE2 11.1%, #FFFFFF 85.21%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #E3EDF7;
+                box-shadow: -4px -2px 16px rgba(255, 255, 255, 0.7), 4px 2px 16px rgba(136, 165, 191, 0.38);
+                border-radius: 16px;
+                color: black;
+
+            }
+
+            .dropdown-toggle:focus {
+                box-shadow: none;
+                box-shadow:$c-pink-pale-violet;
+            }
+
+            .dropdown-toggle:active {
+                border-color: none;
+            }
+
+            .dropdown-menu {}
+        }
+    }
+
+    // a:hover::after {
+    //     cursor: pointer;
+    //     // background: #E3EDF7;
+    //     // box-shadow: inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+    //     // border-radius: 16px;
+    //     color: #31456A;
+    //     width: 100%;
+    // }
+    a:hover{
+            cursor: pointer;
+            background: #E3EDF7;
+            box-shadow: inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+            border-radius: 16px;
+            color: #31456A;
+            // width: 100%;
+        }
+    a{
+        text-align: center;
+        width: 200px;
+        cursor: pointer;
+        margin: 0 20px;
+        color: white;
+        text-transform: uppercase;
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+        
+    }
+    // a::after{
+    //     // content: '';
+    //     height: 3px;
+    //     width: 0;
+    //     background: #E3EDF7;
+    //     box-shadow: inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+    //     border-radius: 16px;
+    //     position: absolute;
+    //     left: 0;
+    //     bottom: -10px;
+    //     transition: 0.5s;
+    // }
+
+
+
+
+
+}

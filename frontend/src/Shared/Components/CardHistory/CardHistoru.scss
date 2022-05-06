@@ -1,0 +1,39 @@
+.CardHistory {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+    .CardHistory-card {
+        padding: 10px;
+        display: flex;
+        background: radial-gradient(315.18% 315.18% at -124.11% -101.79%, #B9CCE2 11.1%, #FFFFFF 85.21%), #E3EDF7;
+        border-radius: 30px;
+        padding: 10px;
+        border: 2px solid gray;
+        box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px #fff;
+        .CardHistory-img {
+            border: 1px solid gray;
+            padding: 10px;
+            height: 170px;
+            width: 170px;
+            padding: 0px;
+            border-radius: 20px;
+        }
+
+        .CardHistory-content {
+            width: auto;
+
+            padding-left: 20px;
+
+            .name {
+                font-weight: 600;
+            }
+
+            .role {
+                color: gray;
+            }
+        }
+
+    }
+
+}

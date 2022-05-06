@@ -1,0 +1,28 @@
+
+@import "./variables";
+@import "./util";
+@import "./shared";
+@import "../Shared/Components/AppHeader/AppHeader.scss";
+@import "../Shared/Components/AppFooter/AppFooter.scss";
+@import "../Shared/Components/CardService/CardService.scss";
+@import "../Modules/HomePage/HomePage.scss";
+@import "../Modules/Booking/Components/Booking.scss";
+@import "../Shared/Components/CardBooking/CardBooking.scss";
+@import "../Shared/Components/AutoSlide/AutoSlide.scss";
+@import "../Shared/Components/Sigup/Sigup.scss";
+@import "../Shared/Components/FormInfoBooking/InfoBooking.scss";
+@import "../Shared/Components/Contact/Contact.scss";
+@import "../Modules/MyProfile/MyProfile.scss";
+@import "../Shared/Components/CardHistory/CardHistoru.scss";
+@import "../Shared/Components/HistoryOrder/HistoryOrder.scss";
+@import "../Shared/Components/ModalConfirm/ModalConfirm.scss";
+@import "../Shared/Components/ModalNoti/ModalNoti.scss";
+
+@import 'font-awesome/css/font-awesome.min.css';
+@import '../Modules/Orders/Components/OrderDetail/OrderDetail.scss';
+@import "../Shared/Components/Button/ButtonForAll.scss";
+@import "../Modules/Booking/Components/RoomList/RoomList.scss";
+@import "../Modules/News/Components/NewsPage.scss";
+@import "../Shared/Components/PrintForm/PrintForm.scss"
+// @import '~material-design-icons/iconfont/material-icons.css';
+// @import "../Shared/Components/Table/table.scss";

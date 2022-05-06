@@ -1,0 +1,46 @@
+.listLocation{
+    .Card{
+        margin-bottom: 40px;
+    }
+    
+}
+.FilterRoom {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background: $c-Misty-rose;
+    padding: 15px 0px;
+    border: 1px solid $c-pink-main;
+    border-radius: 10px;
+    height: 70px;
+    :focus {
+        box-shadow: 0 0 0 0.25rem rgba(255, 99, 71, 0.2);
+    };
+    
+    input:focus {
+        border: 1px solid $c-pink-main;
+
+    }
+
+    select:focus {
+        border: 1px solid $c-pink-main;
+    }
+
+    .search {}
+
+    .sort {}
+
+    .filter {
+        z-index: 100;
+        .filter_button{
+            margin: 0px;
+        }
+        .filter_dropdown{
+            
+            display: -ms-flexbox;
+            border: 1px solid $c-gray-footer;
+            border-radius: 10px;
+            background: $c-LightCoral;
+        }
+    }
+}

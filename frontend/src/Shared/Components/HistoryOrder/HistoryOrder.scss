@@ -1,0 +1,22 @@
+.HistoryOrder {
+    color: white;
+    min-height: 620px;
+    .search-order{
+        margin: 20px 0;
+        padding: 15px 0;
+    }
+    .HistoryOrder-list {
+        // min-height: 640px;
+        margin-top: 20px;
+        border: 2px solid gray;
+        border-radius: 20px;
+        padding: 20px;
+        .his-col{
+            padding: 5px;
+        }
+        .img-his{
+            height: '100%';
+            width: '100%';
+        }
+    }
+}

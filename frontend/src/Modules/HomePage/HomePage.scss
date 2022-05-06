@@ -1,0 +1,54 @@
+@import 'Components/ListLocation/ListLocationHome.scss';
+
+.HomePage{
+    width: 100%;
+    height: 100vh;
+    .content{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+        h1{
+            font-size: 70px;
+            margin-top: 80px;
+        }
+        p{
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+        }
+        .row-btn-banner{
+            display: flex;
+            justify-content: center;
+            
+        }
+    }
+    .title_room{
+        padding : 10px
+    }
+    .seeMore{
+        cursor: pointer;
+    }
+    .seeMore:hover{
+        color: $c-pink-medium-violet;
+    }
+}
+.banner{
+    margin-top: 15px;
+    background: linear-gradient(180deg, #F1F5F8 0%, #EBF3FA 0.01%, #DDE7F3 53.92%, #E6F0F9 100%);
+    height: 300px;
+    box-shadow: -6px -2px 16px rgba(255, 255, 255, 0.8), 6px 2px 16px rgba(136, 165, 191, 0.48);
+    border-radius: 16px;
+    .iconBanner{
+        margin-top: 10px;
+        background: #E3EDF7;
+        box-shadow: inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+        border-radius: 16px;
+       
+    }
+    b{
+        font-size: 20px;
+    }
+}

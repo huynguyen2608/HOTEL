@@ -1,0 +1,33 @@
+.PrintForm{
+    padding: 12px;
+    .footer-print{
+        .footer-row{
+            margin-bottom: 0px;
+        }
+        .name-hotel{
+            color: orange;
+        }
+    }
+    .title-print{
+        margin-bottom: 0px;
+    }
+    .row-divider{
+        margin-bottom: 5px;
+        .divider-print{
+            border-width: 2px;
+            color: black;
+        }
+    }
+    .info-print{
+        .row{
+            margin-bottom: 5px;
+        }
+    }
+    .total-print{
+        margin-bottom: 5px;
+        .row{
+            margin-bottom: 5px;
+        }
+    }
+   
+}

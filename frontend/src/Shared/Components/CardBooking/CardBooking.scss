@@ -1,0 +1,28 @@
+.CardBooking{
+    background: linear-gradient(#019587, #fff);
+    padding: 10px;
+    border: 1px solid #009688;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #009688;
+    .img-booking-room{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        img{
+            height: 90px;
+            border-radius: 10px;
+        }
+    }
+    .booking-card-detail{
+        p{
+            margin: 0px;
+        }
+        .booking-name{
+            margin: 0px;
+        }
+        .booking-rate{
+            // color: yellow;
+            margin-bottom: 5px;
+        }
+    }
+}

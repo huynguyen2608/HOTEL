@@ -1,0 +1,124 @@
+//////////BUTTON/////////
+.button-main{
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #009688;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px;
+  transition: transform .5s;
+  &:hover {
+    color: #fff;
+    background-color: #009688;
+    transform: translateY(-10px);
+
+  }
+}
+
+.button-cancel{
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 25px;
+  font-weight: bold;
+  background: red;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 250px;
+  padding: 15px;
+  transition: transform .5s;
+  &:hover {
+    transform: translateY(-10px);
+
+  }
+}
+.btn {
+    min-width: 40px;
+    padding: .175rem .75rem;
+    border: none;
+    // border-radius: 4px;
+    outline: none;
+    // background-color: $c-pink-pale-violet;
+    color: $c-text-btn;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    letter-spacing: 0.02857em;
+    &:hover,
+    &:focus {
+      &:not([disabled]){
+        background-color: $c-pink-pale-violet;
+        transition: $transition-btn-hover;
+        box-shadow: $box-shadow;
+      }  
+    }
+    &:disabled{
+      background-color: #b2bec3;
+    }
+  }
+  
+  .btn-secondary {
+    &:hover,
+    &:focus {
+      &:not([disabled]){
+        background-color: $c-pink-pale-violet;
+        transition: $transition-btn-hover;
+        box-shadow: $box-shadow;
+      } 
+    }
+    &:disabled{
+      background-color: #b2bec3;
+    }
+  }
+
+  .btn-danger{
+    background-color: $c-danger;
+    &:hover,
+    &:focus{
+      &:not([disabled]){
+        box-shadow: $box-shadow;
+        background-color: $c-danger-hover;
+        transition: $transition-btn-hover;
+      }
+    }
+    &:not(:disabled):not(.disabled).active:focus,
+    &:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-danger.dropdown-toggle:focus {
+      box-shadow: none;
+    }
+  }
+
+
+  .btn-sm{
+    font-size: 60%;
+  }
+
+  .btn-search{
+    background-color: #1976d2;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  

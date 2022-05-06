@@ -1,0 +1,32 @@
+.Profile {
+    padding-top: 10px;
+    color: #fff;
+    height: 620px;
+    min-height: 550px;
+    .change-pass-container{
+      margin: 50px auto;
+      font-family: 'Nunito', sans-serif;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px 3px #009688;
+    margin-bottom: auto;
+    border: 2px solid #009688;
+    }
+    .name{
+        display: flex;
+        h5{
+            width: auto;
+            margin-left: 10px;
+        }
+    }
+  .cancel{
+    color: #fff;
+    background-color: #DC143C;
+    border-color: #DC143C;
+  }
+  .cancel:hover{
+    color: #fff;
+    background-color: red !important;
+    border-color: red !important;
+  }
+}
