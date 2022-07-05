@@ -5,7 +5,8 @@
   "main": "./src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "ts-node-dev src/index.ts"
+    "start": "ts-node-dev src/index.ts",
+    "build": "tsc -p ."
   },
   "author": "",
   "license": "ISC",
