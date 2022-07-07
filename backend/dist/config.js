@@ -15,7 +15,7 @@ async function ReadConfig() {
             db_name: process.env.DB_NAME,
         },
         app: {
-            dir: resolvedir("../frontend/build"),
+            dir: resolvedir("./build"),
         }
     };
     Object.defineProperty(config.database, 'db_url', {
